@@ -1,5 +1,5 @@
 numpy
 pandas
 pykrige
-sklearn
+scikit-learn
 matplotlib
