@@ -18,8 +18,6 @@ datatesting
 gridy = datatesting['latitute'].values
 gridx= datatesting['longitude'].values
 
-"""**Prediksi dengan Ordinary Kriging**"""
-
 # Perform Ordinary Kriging using the spherical variogram model
 OK = OrdinaryKriging(longitude,
                      latitute,
