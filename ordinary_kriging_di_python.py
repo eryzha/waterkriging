@@ -7,7 +7,7 @@ datatraining = pd.read_csv('data_training.csv')
 datatraining
 
 # Extract the necessary columns
-latitude = datatraining['latitute'].values
+latitute = datatraining['latitute'].values
 longitude = datatraining['longitude'].values
 value = datatraining['COD2024'].values
 
