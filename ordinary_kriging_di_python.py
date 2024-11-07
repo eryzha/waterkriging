@@ -3,10 +3,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from pykrige.ok import OrdinaryKriging
 
-"""**Import Data Training**"""
-
-! gdown --id 13qbittcVHYQBcBUkTy60ZGB-hTn3od8m
-
 datatraining = pd.read_csv('https://drive.google.com/file/d/1q5mNLxlUX1vmIri2JM9jXzBQxHOR5Gv2/view?usp=sharing')
 datatraining
 
@@ -14,10 +10,6 @@ datatraining
 latitude = datatraining['Latitute'].values
 longitude = datatraining['Longtitute'].values
 value = datatraining['COD 2024'].values
-
-"""**Import Data Testing**"""
-
-! gdown --id 1A-evARjN-LwCSDsjpkP_Imyb2WVgxugA
 
 datatesting = pd.read_excel('https://docs.google.com/spreadsheets/d/1zfQoGmkmHhDqnGVIIRgK7Tu4muQBcM5Z/edit?usp=sharing&ouid=118433922064170523803&rtpof=true&sd=true')
 datatesting
