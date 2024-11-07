@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-from pykrige.ok import OrdinaryKriging
+#from pykrige.ok import OrdinaryKriging
 from sklearn.preprocessing import StandardScaler
 import matplotlib.pyplot as plt
 
