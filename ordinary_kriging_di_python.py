@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from pykrige.ok import OrdinaryKriging
 
-datatraining = pd.read_csv('data_training.csv', error_bad_lines=False)
+datatraining = pd.read_csv('data_training.csv')
 datatraining
 
 # Extract the necessary columns
