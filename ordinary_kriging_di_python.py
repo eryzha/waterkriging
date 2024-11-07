@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from pykrige.ok import OrdinaryKriging
 
-datatraining = pd.read_csv('https://drive.google.com/file/d/1q5mNLxlUX1vmIri2JM9jXzBQxHOR5Gv2/view?usp=sharing', error_bad_lines=False)
+datatraining = pd.read_csv('data_training.csv', error_bad_lines=False)
 datatraining
 
 # Extract the necessary columns
@@ -11,7 +11,7 @@ latitude = datatraining['Latitute'].values
 longitude = datatraining['Longtitute'].values
 value = datatraining['COD 2024'].values
 
-datatesting = pd.read_excel('https://docs.google.com/spreadsheets/d/1zfQoGmkmHhDqnGVIIRgK7Tu4muQBcM5Z/edit?usp=sharing&ouid=118433922064170523803&rtpof=true&sd=true')
+datatesting = pd.read_csv('data_testing.csv')
 datatesting
 
 # Extract the necessary columns
